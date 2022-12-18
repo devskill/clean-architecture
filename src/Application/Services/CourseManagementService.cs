@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class CourseService : ICourseService
+    public class CourseManagementService : ICourseManagementService
     {
         public (IList<Course> courses, int total, int totalAfterFilter) GetFilteredCourses()
         {

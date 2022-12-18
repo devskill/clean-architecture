@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Services
 {
-    public interface ICourseService
+    public interface ICourseManagementService
     {
         (IList<Course> courses, int total, int totalAfterFilter) GetFilteredCourses();
     }
